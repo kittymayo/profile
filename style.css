@@ -102,3 +102,13 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.info div {
+  width: 92%;
+  margin: 8px;
+  text-align: left;
+  padding: 8px;
+  box-shadow: 4px;
+  align-items: center;
+
+}
