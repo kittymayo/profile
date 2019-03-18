@@ -2,6 +2,7 @@ body {
   background-color: #F7F7F7;
 }
 
+
 h1 {
   font-family: 'Allerta Stencil', sans-serif;
   font-weight: 900;
@@ -50,8 +51,19 @@ img {
   border-radius: 10%;
 }
 
- .header {
-  box-shadow: 1px 1px 3px #D7D6CF;
+ .hero {
+    justify-content: space-around;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1519931760384-a96fedd8dfa9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80);
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 8px;
  }
 
 div {
