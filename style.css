@@ -7,14 +7,14 @@ h1 {
   font-weight: 900;
   font-size: 40px;
   line-height: 0.8;
-  color: #443F55;
+  color: white;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   line-height: 0.9;
-  color: #1F2D6F;
+  color: white;
   text-align: left;
 }
 
@@ -47,7 +47,7 @@ li {
 img {
   width: 320px;
   height: auto;
-  border-radius: 10%;
+  border-radius: 2px;
 }
 
  .header {
@@ -60,7 +60,6 @@ div {
   text-align: center;
   padding: 8px;
   box-shadow: 4px;
-
   align-items: center;
 }
 
