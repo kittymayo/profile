@@ -1,5 +1,5 @@
 body {
-  background-color: #F7F7F7;
+
 }
 
 h1 {
@@ -51,7 +51,7 @@ img {
 }
 
  .header {
-  box-shadow: 1px 1px 3px #D7D6CF;
+
  }
 
 div {
@@ -60,7 +60,7 @@ div {
   text-align: center;
   padding: 8px;
   box-shadow: 4px;
-  background: #F2F3ED;
+
   align-items: center;
 }
 
@@ -88,4 +88,19 @@ li {
   .container {
     width: 300px;
   }
+}
+
+.hero {
+    justify-content: space-around;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1453745558060-956d4c4deff8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 8px;
 }
