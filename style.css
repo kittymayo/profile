@@ -34,7 +34,6 @@ a {
 a:hover{
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
-  line-height: 0.8;
   color: #5F305A;
 }
 li {
@@ -90,7 +89,7 @@ li {
 
 .hero {
     justify-content: space-around;
-    height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     text-align: center;
