@@ -1,17 +1,23 @@
+<<<<<<< HEAD
+=======
+body {
+
+}
+>>>>>>> 959d555886106669d2005653243d5167f6bd9465
 
 h1 {
   font-family: 'Allerta Stencil', sans-serif;
   font-weight: 900;
   font-size: 40px;
   line-height: 0.8;
-  color: #443F55;
+  color: white;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   line-height: 0.9;
-  color: #1F2D6F;
+  color: white;
   text-align: left;
 }
 
@@ -30,9 +36,7 @@ a {
 }
 a:hover{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
   font-size: 32px;
-  line-height: 0.8;
   color: #5F305A;
 }
 li {
@@ -44,9 +48,10 @@ li {
 img {
   width: 320px;
   height: auto;
-  border-radius: 10%;
+  border-radius: 2px;
 }
 
+<<<<<<< HEAD
  .hero {
     justify-content: space-around;
     height: 100vh;
@@ -61,7 +66,6 @@ img {
     background-attachment: fixed;
     padding: 8px;
     z-index: 2;
- }
 
 .container {
   width: 92%;
@@ -96,4 +100,28 @@ li {
   .container {
     width: 300px;
   }
+}
+
+.hero {
+    justify-content: space-around;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1537914675540-ec9f82fbd752?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1616&q=80);
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.info div {
+  width: 92%;
+  margin: 8px;
+  text-align: left;
+  padding: 8px;
+  box-shadow: 4px;
+  align-items: center;
+
 }
