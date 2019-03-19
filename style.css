@@ -122,6 +122,9 @@ li {
   text-align: left;
   padding: 8px;
   box-shadow: 4px;
-  align-items: center;
+  justify-items: left;
+  display: grid;
+  grid-template-columns: 10fr 6fr;
+  grid-template-rows: 116px auto auto ;
 
 }
