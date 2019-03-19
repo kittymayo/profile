@@ -9,7 +9,7 @@ h1 {
   font-family: 'Allerta Stencil', sans-serif;
   font-weight: 900;
   font-size: 54px;
-  line-height: 0.8;
+  line-height: 1.6;
   color: white;
 }
 
@@ -25,18 +25,18 @@ p {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 26px;
   line-height: 1.5;
-  color: #443F55;
+  color: black;
+  padding:8px;
 }
 a {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 32px;
+  font-size: px;
   line-height: 0.6;
-  color: #1F2D6F;
+  color: black;
   text-decoration: none;
 }
 a:hover{
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 32px;
   color: #5F305A;
 }
 li {
@@ -45,18 +45,9 @@ li {
   color: #443F55;
 }
 
-img {
-  width: 320px;
-  height: auto;
-  border-radius: 2px;
-}
-
 .container {
-  width: 92%;
-  margin: 8px;
+  width: 100%;
   text-align: center;
-  padding: 8px;
-  box-shadow: 4px;
   align-items: center;
 }
 
@@ -89,9 +80,10 @@ li {
 .hero {
     justify-content: space-around;
     width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: left;
     color: white;
     background-image: linear-gradient(rgba(39,63,76,0.63), rgba(0,135,210,0.13)), url(https://images.unsplash.com/photo-1537914675540-ec9f82fbd752?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1616&q=80);
     background-size: cover !important;
@@ -101,14 +93,57 @@ li {
     z-index: 2;
 }
 
-.grid div {
-  width: 92%;
+.topline {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  width: 100%;
   margin: 8px;
   text-align: left;
   padding: 8px;
   justify-items: left;
   display: grid;
-  grid-template-columns: 10fr 6fr;
-  grid-template-rows: 116px auto auto ;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto ;
 
 }
+
+.intro {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+
+}
+
+.info {
+  grid-column: 1/ span 1;
+  grid-row: 2/ span 1;
+  text-align: justify;
+
+}
+
+.contact p {
+  text-align: right!important;
+  color: white !important;
+}
+
+.card {
+  grid-column: 2/ span 1;
+  grid-row: 3/ span 1;
+  text-align: center;
+
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.skills {
+  grid-column: 3/ span 1;
+  grid-row: 1/ span 2;
+}
+
+
